@@ -1,4 +1,4 @@
-[
+{ "autok": [
   {
     "marka": "Toyota",
     "modell": "Corolla",
@@ -79,4 +79,4 @@
     "sebessegvalto": "automata",
     "ar": 4200000
   }
-]
+]}
