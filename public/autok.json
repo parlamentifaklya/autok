@@ -1,0 +1,82 @@
+[
+  {
+    "marka": "Toyota",
+    "modell": "Corolla",
+    "evjarat": 2020,
+    "uzemanyag": "benzin",
+    "sebessegvalto": "manuális",
+    "ar": 5200000
+  },
+  {
+    "marka": "Volkswagen",
+    "modell": "Golf",
+    "evjarat": 2019,
+    "uzemanyag": "dízel",
+    "sebessegvalto": "automata",
+    "ar": 4600000
+  },
+  {
+    "marka": "Ford",
+    "modell": "Focus",
+    "evjarat": 2021,
+    "uzemanyag": "hibrid",
+    "sebessegvalto": "automata",
+    "ar": 6100000
+  },
+  {
+    "marka": "Honda",
+    "modell": "Civic",
+    "evjarat": 2018,
+    "uzemanyag": "benzin",
+    "sebessegvalto": "manuális",
+    "ar": 4300000
+  },
+  {
+    "marka": "BMW",
+    "modell": "320d",
+    "evjarat": 2022,
+    "uzemanyag": "dízel",
+    "sebessegvalto": "automata",
+    "ar": 9500000
+  },
+  {
+    "marka": "Mercedes-Benz",
+    "modell": "A180",
+    "evjarat": 2020,
+    "uzemanyag": "benzin",
+    "sebessegvalto": "automata",
+    "ar": 8700000
+  },
+  {
+    "marka": "Skoda",
+    "modell": "Octavia",
+    "evjarat": 2017,
+    "uzemanyag": "dízel",
+    "sebessegvalto": "manuális",
+    "ar": 3900000
+  },
+  {
+    "marka": "Tesla",
+    "modell": "Model 3",
+    "evjarat": 2023,
+    "uzemanyag": "elektromos",
+    "sebessegvalto": "automata",
+    "ar": 14500000
+  },
+  {
+    "marka": "Kia",
+    "modell": "Ceed",
+    "evjarat": 2021,
+    "uzemanyag": "benzin",
+    "sebessegvalto": "manuális",
+    "ar": 4700000
+  },
+  {
+    "marka": "Renault",
+    "modell": "Megane",
+    "evjarat": 2019,
+    "uzemanyag": "dízel",
+    "sebessegvalto": "automata",
+    "ar": 4200000
+  }
+]
