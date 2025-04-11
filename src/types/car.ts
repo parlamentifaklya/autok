@@ -5,4 +5,5 @@ export type Car = {
     "uzemanyag": string,
     "sebessegvalto": string,
     "ar": number
+    "img": string
 }

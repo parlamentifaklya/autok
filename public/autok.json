@@ -5,7 +5,8 @@
     "evjarat": 2020,
     "uzemanyag": "benzin",
     "sebessegvalto": "manuális",
-    "ar": 5200000
+    "ar": 5200000,
+    "img": "https://picsum.photos/id/940/600/400" 
   },
   {
     "marka": "Volkswagen",
@@ -13,7 +14,8 @@
     "evjarat": 2019,
     "uzemanyag": "dízel",
     "sebessegvalto": "automata",
-    "ar": 4600000
+    "ar": 4600000,
+    "img": "https://picsum.photos/id/40/600/400"
   },
   {
     "marka": "Ford",
@@ -21,7 +23,8 @@
     "evjarat": 2021,
     "uzemanyag": "hibrid",
     "sebessegvalto": "automata",
-    "ar": 6100000
+    "ar": 6100000,
+    "img": "https://picsum.photos/id/50/600/400"
   },
   {
     "marka": "Honda",
@@ -29,7 +32,8 @@
     "evjarat": 2018,
     "uzemanyag": "benzin",
     "sebessegvalto": "manuális",
-    "ar": 4300000
+    "ar": 4300000,
+    "img": "https://picsum.photos/id/60/600/400"
   },
   {
     "marka": "BMW",
@@ -37,7 +41,8 @@
     "evjarat": 2022,
     "uzemanyag": "dízel",
     "sebessegvalto": "automata",
-    "ar": 9500000
+    "ar": 9500000,
+    "img": "https://picsum.photos/id/70/600/400"
   },
   {
     "marka": "Mercedes-Benz",
@@ -45,7 +50,8 @@
     "evjarat": 2020,
     "uzemanyag": "benzin",
     "sebessegvalto": "automata",
-    "ar": 8700000
+    "ar": 8700000,
+    "img": "https://picsum.photos/id/80/600/400"
   },
   {
     "marka": "Skoda",
@@ -53,7 +59,8 @@
     "evjarat": 2017,
     "uzemanyag": "dízel",
     "sebessegvalto": "manuális",
-    "ar": 3900000
+    "ar": 3900000,
+    "img": "https://picsum.photos/id/90/600/400"
   },
   {
     "marka": "Tesla",
@@ -61,7 +68,8 @@
     "evjarat": 2023,
     "uzemanyag": "elektromos",
     "sebessegvalto": "automata",
-    "ar": 14500000
+    "ar": 14500000,
+    "img": "https://picsum.photos/id/100/600/400"
   },
   {
     "marka": "Kia",
@@ -69,7 +77,8 @@
     "evjarat": 2021,
     "uzemanyag": "benzin",
     "sebessegvalto": "manuális",
-    "ar": 4700000
+    "ar": 4700000,
+    "img": "https://picsum.photos/id/110/600/400" 
   },
   {
     "marka": "Renault",
@@ -77,6 +86,7 @@
     "evjarat": 2019,
     "uzemanyag": "dízel",
     "sebessegvalto": "automata",
-    "ar": 4200000
+    "ar": 4200000,
+    "img": "https://picsum.photos/id/120/600/400"
   }
 ]}

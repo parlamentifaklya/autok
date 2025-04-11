@@ -3,34 +3,37 @@ import { Car } from "../types/car"
 
 const Cars = () => {
     const [cars, setCars] = useState<Car[]>([]);
-
+    const [carIdx, setCarIdx] = useState<number>(0); 
     
     useEffect(() => {
         const fetchAuto = async () => {
             try {
-                await fetch("autok.json").then(res => res.json()).then(data => {
-                    let apiCars = data.autok;
-                    apiCars = apiCars.sort(() => Math.random() - 0.5);
-                    apiCars = apiCars.slice(0, 4);
-                    setCars(apiCars);
-                });
+               const res = await fetch("autok.json");
+               const data = await res.json();
+               setCars(data.autok);
             } catch (error) {
-                console.error(error);
+                console.error(error)
             }
         }
 
         fetchAuto();
     }, [])
 
+    const Increase = () => {
+        setCarIdx(prev => prev + 1 == cars.length ? 0 : prev + 1);
+    }
+
+    const Decrease = () => {
+        setCarIdx(prev => prev - 1 < 0 ? cars.length - 1 : prev - 1);
+    }
+
     return (
         <div>
-            {cars.map((car, idx) => (
-                <div>
-                    <img src={`https://picsum.photos/id/${Math.floor(Math.random())}/600/400`} style={{ width: 600, height: 400}}/>
-                    <div style={{color: car.sebessegvalto === "automata" ? "blue" : "red"}} key={idx}>{car.marka} {car.modell} - {car.sebessegvalto}</div>
-
-                </div>
-            ))}
+            {cars.length > 0 && <>
+                <button onClick={Decrease}>⬅️</button>
+                <img src={cars[carIdx].img}/>
+                <button onClick={Increase}>➡️</button>
+            </>}
         </div>
     )
 }
